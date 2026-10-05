@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import json
 import re
-
+from openai import OpenAI
+client = OpenAI()
 # ---------------------------------------------------------
 # PAGE CONFIGURATION
 # ---------------------------------------------------------
